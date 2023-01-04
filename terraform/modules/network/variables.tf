@@ -1,0 +1,10 @@
+variable "cidr_block" {}
+variable "inspection-vpc-cidr" {}
+variable "spoke-vpc-01-cidr" {}
+variable "egress-vpc-cidr" {}
+variable "spoke-vpc-02-cidr" {}
+variable "inspection-subnets" {}
+variable "egress-subnets" {}
+variable "spoke-vpc-01-subnets" {}
+variable "spoke-vpc-02-subnets" {}
+variable "firewall_subnets" {}
